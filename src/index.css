@@ -1,5 +1,5 @@
-/* body {
-  background-color: #FFCC00;
+body {
+  background-color: black !important;
   padding: 20px;
   margin: 0;
 }
@@ -12,6 +12,43 @@ li {
   font-family: sans-serif;
 }
 
+
+.active {
+  color: grey !important;
+}
+
+.nav {
+  color: black !important;
+}
+
+.serviceDescription {
+  color: white;
+  font-style: italic;
+}
+
+.serviceList {
+  background-color: black !important;
+}
+
+.serviceName {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.serviceTime {
+  color: white;
+  font-size: 11px;
+}
+
+.linkButton {
+  color: white !important;
+}
+
+.navbar-toggler {
+  background-color: white !important
+}
+
+
 ul.header li {
   display: inline;
   list-style-type: none;
@@ -23,16 +60,8 @@ ul.header {
   padding: 0;
 }
 
-ul.header li a {
-  color: #FFF;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 20px;
-  display: inline-block;
-}
 
 .content {
-  background-color: #FFF;
   padding: 20px;
 }
 
@@ -43,4 +72,4 @@ ul.header li a {
 
 .content li {
   margin-bottom: 10px;
-} */
+}
