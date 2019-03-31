@@ -9,13 +9,16 @@ import About from "./About";
 import Services from "./Services";
 import Book from "./Book"
 import Contact from "./Contact";
+import Footer from "./Footer"
 import { Navbar, Nav } from 'react-bootstrap';
+
 
 
  
 class Main extends Component {
   render() {
     return (
+        <div>
         <HashRouter>
             <Navbar className='nav' expand="xl">
             <Navbar.Brand href="#home" className='linkButton'>Dark Rose Club</Navbar.Brand>
@@ -38,6 +41,7 @@ class Main extends Component {
             <Route path="/contact" component={Contact}/>
           </div>
         </HashRouter>
+</div>
     )
   }
 }

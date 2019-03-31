@@ -2,6 +2,7 @@ body {
   background-color: black !important;
   padding: 20px;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1,
@@ -11,7 +12,6 @@ ul,
 li {
   font-family: sans-serif;
 }
-
 
 .active {
   color: grey !important;
@@ -34,6 +34,15 @@ li {
   color: white;
   border-bottom: 1px solid white;
 }
+
+/* .allServices {
+     -moz-column-count: 2;
+     -moz-column-gap: 40px;
+     -webkit-column-count: 2;
+     -webkit-column-gap: 40px;
+     column-count: 2;
+     column-gap: 20px;
+} */
 
 .serviceTime {
   color: white;

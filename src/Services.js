@@ -5,7 +5,7 @@ import { ListGroup } from 'react-bootstrap';
 class Services extends Component {
   render() {
     return (
-      <div>
+      <div className='allServices'>
       <ListGroup>
       <ListGroup.Item variant="dark" className='serviceList'>
       <span className='serviceName'>Haircut - $40</span>
