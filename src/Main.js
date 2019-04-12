@@ -11,14 +11,12 @@ import Book from "./Book"
 import Contact from "./Contact";
 import Footer from "./Footer"
 import { Navbar, Nav } from 'react-bootstrap';
+import rose from './rose.gif'
 
-
-
- 
 class Main extends Component {
   render() {
     return (
-        <div>
+        <div className="App">
         <HashRouter>
             <Navbar className='nav' expand="xl">
             <Navbar.Brand href="#home" className='linkButton'>Dark Rose Club</Navbar.Brand>
@@ -41,7 +39,8 @@ class Main extends Component {
             <Route path="/contact" component={Contact}/>
           </div>
         </HashRouter>
-</div>
+        <img src={rose} className="roseLogo" alt="logo" />
+        </div>
     )
   }
 }
