@@ -12,6 +12,7 @@ import Contact from "./Contact";
 import Footer from "./Footer"
 import { Navbar, Nav } from 'react-bootstrap';
 import rose from './rose.gif'
+import newRose from './drclogo.png'
 
 class Main extends Component {
   render() {
@@ -19,14 +20,15 @@ class Main extends Component {
         <div className="App">
         <HashRouter>
             <Navbar className='nav' expand="xl">
-            <Navbar.Brand href="#home" className='linkButton'>Dark Rose Club</Navbar.Brand>
+            <Navbar.Brand href="#home" className='linkButton'>              <img src={newRose} className="newRose" alt="fart" />
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
+                <Nav.Link><li><NavLink className='linkButton' to ="/Book">Book</NavLink></li></Nav.Link>
                 <Nav.Link><li><NavLink className='linkButton' to="/">Home</NavLink></li></Nav.Link>
                 <Nav.Link><li><NavLink className='linkButton' to ="/About">About</NavLink></li></Nav.Link>
                 <Nav.Link><li><NavLink className='linkButton' to ="/Services">Services</NavLink></li></Nav.Link>
-                <Nav.Link><li><NavLink className='linkButton' to ="/Book">Book</NavLink></li></Nav.Link>
                 <Nav.Link><li><NavLink className='linkButton' to ="/Contact">Contact</NavLink></li></Nav.Link>
                 </Nav>
             </Navbar.Collapse>
@@ -40,6 +42,8 @@ class Main extends Component {
           </div>
         </HashRouter>
         <img src={rose} className="roseLogo" alt="logo" />
+        // <img src={newRose} className="newRose" alt="fart" />
+
         </div>
     )
   }

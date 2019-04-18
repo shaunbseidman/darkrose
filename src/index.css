@@ -22,16 +22,35 @@ li {
 }
 
 .roseLogo {
-  display: block;
+  /* display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5rem;
-  width:100vh;
+  /* width:100vh;  */
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+
+.mr-auto {
+  margin-left: 30rem;
 }
 
 .serviceDescription {
   color: white;
   font-style: italic;
+}
+
+.newRose {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width:5vh;
 }
 
 .serviceList {
